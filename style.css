@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(18, 18, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.leftHeader {
+    margin: 10%;
+    width: 40%;
+    font-size: 1.6rem;
+}
+
+.rightHeader {
+    width: 40%;
+    padding-right: 10%;
+
+
+}
+
+.rightHeader ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.rightHeader ul li {
+    list-style: none;
+    margin: 0 23;
+}
+
+.rightHeader ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    height: 500px
+}
+
+.leftSection {
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 280%;
+    width: 40%;
+}
+button{
+    background-color: #1e2167;
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+
+.rightSection {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.rightSection img {
+    margin-top: 5%;
+    margin-right: 10%;
+    height: 80%;
+    width: 90%;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.hr {
+    border: 2px solid rgb(195, 146, 241);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.temp {
+    margin-top: 10px;
+    margin-left: 120px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0px; */
+}
+
+.box {
+    background-color:rgb(18, 18, 62);
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.box div{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#space{
+    margin-left: 90px;
+    font-weight: 500;
+}
+#percentage
+{
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.skills
+{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-logo
+{
+    height: 200px;
+    width: 200px;
+}
+
+footer
+{
+    background-color:  rgb(18, 18, 62);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+   
+}
+.footer-icon
+{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    padding-left: 33%;
+    font-size: 50px;
+    justify-content: baseline;
+}
+.copyright
+{
+    padding-left: 35%;
+    padding-top: 15px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 33);
+}
+.height
+{
+    height: 80px;
+}
